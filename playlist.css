@@ -1,0 +1,61 @@
+body {
+    background-color: #f8f9fa; 
+    color: #333; 
+    font-family: 'Arial', sans-serif;
+}
+
+.playlist-container {
+    margin: 20px auto;
+    max-width: 600px; 
+    background-color: #ffffff; 
+    border-radius: 8px; 
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    border: 2px solid #23a8f5; 
+}
+
+.ui.header {
+    color: #23a8f5; 
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+.ui.segment {
+    padding: 20px;
+    text-align: center; 
+}
+
+.ui.huge.button {
+    background-color: #54ecec; 
+    color: #23a8f5; 
+    border: 1px solid #23f5e4; 
+    padding: 15px;
+    font-size: 1.5em;
+    border-radius: 5px;
+}
+
+.ui.huge.button:hover {
+    background-color: #23f5e4; 
+    color: #ffffff; 
+}
+
+.ui.button .music.icon {
+    color: #23a8f5; 
+    margin-right: 10px;
+}
+
+.ui.menu {
+    margin-bottom: 20px;
+}
+
+.ui.menu .item {
+    color: #23a8f5; 
+    font-size: 1.2em; 
+}
+
+.ui.menu .item:hover {
+    color: #23f5e4; 
+    background-color: #23a8f5; 
+}

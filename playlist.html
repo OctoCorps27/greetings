@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>i love you</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <link rel="stylesheet" href="playlist.css">
+</head>
+
+<body>
+    <div class="ui container playlist-container">
+        <div class="ui top attached menu">
+            <a href="index.html" class="ui item">
+                <i class="home icon"></i> Home
+            </a>
+        </div>
+        <div class="ui segment">
+            <h1 class="ui header">Hi Lablab! This song is for you (sorry for the quality) ❤️</h1>
+            <div class="ui center aligned">
+                <button class="ui huge button" id="playButton">
+                    <i class="music icon"></i> PLAY
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <audio id="birthdaySong" src="Neil.mp3"></audio>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+    <script>
+        const playButton = document.getElementById('playButton');
+        const birthdaySong = document.getElementById('birthdaySong');
+
+        playButton.addEventListener('click', () => {
+            if (birthdaySong.paused) {
+                birthdaySong.play();
+                playButton.innerHTML = '<i class="pause icon"></i> PAUSE';
+            } else {
+                birthdaySong.pause();
+                playButton.innerHTML = '<i class="music icon"></i> PLAY';
+            }
+        });
+    </script>
+</body>
+
+</html>

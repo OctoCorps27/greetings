@@ -1,0 +1,32 @@
+
+body {
+    background-color: #f8f9fa; 
+    font-family: 'Arial', sans-serif;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ui.container {
+    width: 50px;
+    max-width: 100px; 
+}
+
+.ui.segment {
+    padding: 0;
+}
+
+.ui.button {
+    font-size: 5em; 
+    padding: 40px; 
+    color: #23a8f5; 
+    background: #ffffff; 
+    border: 3px solid #23f5e4; 
+}
+
+.ui.button:hover {
+    background: #23b3f5; 
+    color: #ffffff; 
+}
+
